@@ -93,3 +93,15 @@ The script operates in a straightforward sequence:
     * It then prompts the user to either list all instances (if there are many), delete the file, or skip it.
     * If a file is deleted and its containing folder becomes empty, the folder is also removed.
     * If a file is clean, it is reported as such. If a file is corrupt or unreadable, an error is logged, and the script moves on to the next file.
+
+
+## License
+
+The **EPUB Content Scanner** script itself is released under the [MIT License](https://opensource.org/licenses/MIT).
+
+This project depends on third-party libraries that are distributed under their own licenses:
+
+* **EbookLib**: [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html) [EbookLib Github Link](https://github.com/aerkalov/ebooklib)
+* **BeautifulSoup4**: [MIT License](https://opensource.org/licenses/MIT) [Python Package Index Link](https://pypi.org/project/beautifulsoup4/)
+
+Users should be aware of the terms of these licenses, particularly the AGPL-3.0 license of `EbookLib`. For the purpose of running this script locally, these terms do not impose obligations on your other software.
