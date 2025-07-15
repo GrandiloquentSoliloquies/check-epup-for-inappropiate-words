@@ -103,5 +103,3 @@ This project depends on third-party libraries that are distributed under their o
 
 * **EbookLib**: [GNU Affero General Public License v3.0 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.en.html) [EbookLib Github Link](https://github.com/aerkalov/ebooklib)
 * **BeautifulSoup4**: [MIT License](https://opensource.org/licenses/MIT) [Python Package Index Link](https://pypi.org/project/beautifulsoup4/)
-
-Users should be aware of the terms of these licenses, particularly the AGPL-3.0 license of `EbookLib`. For the purpose of running this script locally, these terms do not impose obligations on your other software.
